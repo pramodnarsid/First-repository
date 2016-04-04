@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive HTML </title>
+    <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<style>
+    body { 
+        background-color: azure;
+        font-size: 87.5%;
+        font-family: Arial, 'Lucida Sans Unicode';
+        line-height: 1.5;
+        text-align: left;
+    }      
+        
+    
+    .body {
+        margin: 0 autoa;
+        width: 80%;
+        clear: both;
+        margin-left: 10%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .mainheader img {
+        width: 50%;
+        height: auto;
+        margin: 0  ;
+    }
+    
+    .mainheader nav  {
+        background-color: #666;
+        height: 40px;    
+        border-radius: 7px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+      
+    }
+        
+    .mainheader nav ul {
+        list-style: none;
+        margin: 0 auto;
+    }
+    
+    .mainheader nav ul li {
+        float: left;
+        display: inline;
+    }
+    
+    .mainheader nav a:link, .mainheader nav a:visited  {
+        color: white;
+        display: inline-block;
+        padding: 10px 30px;
+        height: 20px;
+    }
+    
+    .mainheader nav a:hover, .mainheader nav a:active,
+    .mainheader nav .active a:link, .mainheader nav .active a:visited {
+        background-color: red;
+        color: yellow;
+        text-shadow: none;
+        font-size: 17px;
+        
+    }
+    
+    .mainheader nav ul li a {
+         border-radius: 25px;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+    }
+    
+    .mainContent {
+         overflow: hidden;     
+         line-height: 23px;
+         border-radius: 7px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        float: left;
+    }
+    
+    .content {
+        float: left;
+        margin-top: 10px;
+        width: 70%;
+        background-color:white;
+        
+        border-radius: 7px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 10px;
+        margin-right: 10px;
+        overflow: hidden; 
+        
+    }
+    
+    .footers {
+        background-color: #666;
+        height: 40px;    
+        border-radius: 7px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+    }
+     
+@madia only screen and (min-width:150px) and (max-width:600px)
+{
+    .body {
+        width: 90%;
+        font-size: 90%;
+    }
+    
+    .mainheader img {
+        width: 100%;
+    
+    }
+    
+    .mainheader nav  {
+        height: 160px; 
+        background-color: #666;
+    }
+        
+    .mainheader nav ul {
+        padding-left: 0px;
+        
+    }
+    
+    .mainheader nav ul li {
+       width: 100%
+       margin: 0 auto;
+       text-align: center;
+       
+    }
+    
+    .mainheader nav a:link, .mainheader nav a:visited  {
+        padding: 10px 30px;
+        height: 20px;
+        display: block;
+    }
+    
+   
+    
+
+    
+}
+    
+ 
+</style>      
+      
+      
+  </head>   
+<body class="body">
+  <header class="mainheader">
+    <img src="D:\Personal\New folder\111111111.jpg">
+       <nav> <!-- navaigation bar -->
+        <ul>
+         <li><a href="#"> Home </a></li>
+         <li><a href="#"> About </a></li>
+         <li><a href="#"> Portfolio</a></li>
+         <li><a href="#"> Contact </a></li>
+        </ul>    
+       </nav>
+  </header>
+<div class="mainContent">
+   <div class="content">
+     <article class="topcontent">
+       <header>
+         <h2> <a herf="#" title="First Post"> First Post </a></h2>
+       </header>
+        <footer>
+         <p class="post-info">This is article written by Pramod</p>
+        </footer>     
+        
+        
+        <p>This course will provide discussion forums. Forums will be available for each course module, so you create posts on the topic being discussed in a particular module. In addition, there will be a forum created for student introductions. You are free to use the forums to connect with other students and the instructor, as well as ask questions about the material. </p>
+            
+        <p>edX is a global platform. When creating posts, please be respectful of all cultures, creeds and religions.  
+In addition, students will have a varied level of experience with the technologies covered in this course, so questions will range from the very basic to the very advanced. You are encouraged to assist other students and share your experiences with the product. </p>
+       
+            </article>   
+    </div>
+        <div class="content">
+     <article class="bottomcontent">
+       <header>
+         <h2> <a herf="#" title="Second Post"> Second Post </a></h2>
+       </header>
+        <footer>
+         <p class="post-info">This is article written by Pramod</p>
+        </footer>     
+        
+        
+        <p>This course will provide discussion forums. Forums will be available for each course module, so you create posts on the topic being discussed in a particular module. In addition, there will be a forum created for student introductions. You are free to use the forums to connect with other students and the instructor, as well as ask questions about the material. </p>
+            
+        <p>edX is a global platform. When creating posts, please be respectful of all cultures, creeds and religions.  
+In addition, students will have a varied level of experience with the technologies covered in this course, so questions will range from the very basic to the very advanced. You are encouraged to assist other students and share your experiences with the product. </p>
+      
+        </article>   
+    
+    </div>
+ 
+    <aside class="top-sidebar">
+        <article>
+            <h2>Top Sidebar</h2>
+            <p> When creating posts, please be respectful of all cultures, creeds and religions. is a global platform. When creating posts, please be respectful of all cultures, creeds and religions.  
+In addition, students will have a varied level of experience with the technologies covered in this course,  </p>
+        </article>
+    </aside> 
+    
+    <aside class="middle-sidebar">
+        <article>
+            <h2>Middle Sidebar</h2>
+            <p> When creating posts, please be respectful of all cultures, creeds and religions.is a global platform. When creating posts, please be respectful of all cultures, creeds and religions.  
+In addition, students will have a varied level of experience with the technologies covered in this course,   </p>
+        </article>
+    </aside> 
+    
+    <aside class="bottom-sidebar">
+        <article>
+            <h2>Bottom Sidebar</h2>
+            <p> When creating posts, please be respectful of all cultures, creeds and religions. </p>
+        </article>
+    </aside> 
+    <br><br>
+    <footer class="footers">
+    Copyright 
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>    
+    
+</body>
+    
+</html>
